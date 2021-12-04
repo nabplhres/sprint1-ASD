@@ -1,0 +1,19 @@
+//SPRINT 1 - Aluna: NÁBILA PALHARES - 119111555
+
+#include <stdio.h>
+#include 'inverte.c'
+
+int main( void )
+{
+    char string[256]; // armazenamento da string
+    
+    printf("informe sua string:"); // interação com usuario
+    scanf("%s", string);
+
+    inverte( string ); //chama a função de inverte
+
+    printf("%s\n", string ); // exibe em tela o resultado da string invertida
+    
+ 
+    return 0;
+}
